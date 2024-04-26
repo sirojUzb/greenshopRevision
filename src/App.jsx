@@ -1,4 +1,5 @@
 import { Carousel } from "antd";
+import { Button } from "./CarouselItem/generic_style";
 import {
   LoginOutlined,
   SearchOutlined,
@@ -28,17 +29,17 @@ const App = () => {
             <ShoppingCartOutlined className="icon" />
             <BellOutlined className="icon" />
             <SearchOutlined className="icon" />
-            <button type="button">
+            <Button width="96" height="40">
               <LoginOutlined />
               Login
-            </button>
+            </Button>
           </Wrapper.NavbarWrapper.Right>
         </Wrapper.NavbarWrapper>
         <Wrapper.CarouselWrapper>
           <Carousel autoplay>
-            <CarouselItem bg="red" />
-            <CarouselItem bg="green" />
-            <CarouselItem bg="pink" />
+            <CarouselItem title="LET'S MAKE A BETTER" />
+            <CarouselItem title="LET'S LIVE IN A BETTER" />
+            <CarouselItem title="LET'S OBSERVE A BETTER" />
           </Carousel>
         </Wrapper.CarouselWrapper>
       </Wrapper>
@@ -47,3 +48,4 @@ const App = () => {
 };
 
 export default App;
+
