@@ -7,7 +7,7 @@ const CarouselItem = (props) => {
     <CarouselWrapper>
       <CarouselWrapper.Right>
         <div className="textWrapper">
-          <h3>Welcome to GreenShop</h3>
+          <h3>Welcome to GREENSHOP</h3>
           <h1>
             {title}
             <span> Planet</span>
