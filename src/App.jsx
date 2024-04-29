@@ -35,6 +35,7 @@ const App = () => {
             </Button>
           </Wrapper.NavbarWrapper.Right>
         </Wrapper.NavbarWrapper>
+        {/* NavbarWrapper finish here */}
         <Wrapper.CarouselWrapper>
           <Carousel autoplay>
             <CarouselItem title="LET'S MAKE A BETTER" />
